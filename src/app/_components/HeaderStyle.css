@@ -1,0 +1,48 @@
+.header-container {
+    width: 100%;
+    padding: 20px 25px; 
+    margin: 5px;       /* smaller space */
+    background: #ff7b00;       /* or your chosen color */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container div {
+    margin: 0;                 /* removes random gaps */
+    padding: 0;
+}
+
+.header-container ul {
+    display: flex;
+    gap: 15px;                 /* reduce gap between menu items */
+    list-style: none;
+}
+
+.header-container li {
+    cursor: pointer;
+    transition: 0.2s ease;
+    padding: 5px 8px;          /* compact menu buttons */
+}
+
+.header-container li:hover {
+    background: rgba(255,255,255,0.2);
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

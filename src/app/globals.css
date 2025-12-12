@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .login-container {
     width: 370px;
     margin: 60px auto;
@@ -49,3 +55,4 @@
 .login-btn:hover {
     background: #4338ca;
 }
+
